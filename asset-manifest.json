@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/horror_movies/static/css/main.bb1e4c9a.css",
+    "main.js": "/horror_movies/static/js/main.ee16e788.js",
+    "static/media/HorrorCorps.ttf": "/horror_movies/static/media/HorrorCorps.392c23bb7092901fe664.ttf",
+    "index.html": "/horror_movies/index.html",
+    "main.bb1e4c9a.css.map": "/horror_movies/static/css/main.bb1e4c9a.css.map",
+    "main.ee16e788.js.map": "/horror_movies/static/js/main.ee16e788.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb1e4c9a.css",
+    "static/js/main.ee16e788.js"
+  ]
+}
