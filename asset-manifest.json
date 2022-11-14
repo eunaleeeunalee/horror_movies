@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/horror_movies/static/css/main.bb1e4c9a.css",
-    "main.js": "/horror_movies/static/js/main.ee16e788.js",
+    "main.css": "/horror_movies/static/css/main.3a530085.css",
+    "main.js": "/horror_movies/static/js/main.bc3f0974.js",
     "static/media/HorrorCorps.ttf": "/horror_movies/static/media/HorrorCorps.392c23bb7092901fe664.ttf",
     "index.html": "/horror_movies/index.html",
-    "main.bb1e4c9a.css.map": "/horror_movies/static/css/main.bb1e4c9a.css.map",
-    "main.ee16e788.js.map": "/horror_movies/static/js/main.ee16e788.js.map"
+    "main.3a530085.css.map": "/horror_movies/static/css/main.3a530085.css.map",
+    "main.bc3f0974.js.map": "/horror_movies/static/js/main.bc3f0974.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb1e4c9a.css",
-    "static/js/main.ee16e788.js"
+    "static/css/main.3a530085.css",
+    "static/js/main.bc3f0974.js"
   ]
 }
