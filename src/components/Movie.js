@@ -11,9 +11,9 @@ function Movie({id, coverImg, title, rating, year}) {
           </Link>
           <p>IMDb rating: {rating}</p>
           <p>Year: {year}</p>
-        {/* <ul>
-          {genres.map((g,index) => <li key={index}>{g}</li>)}
-        </ul> */}
+          <p>
+          {/* {genres.map((g,index) => <span key={index}>{g} </span>)} */}
+          </p>
       </div>
     );
 }

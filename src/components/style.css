@@ -1,0 +1,203 @@
+@font-face 
+{ 
+font-family: "bloody";  
+src: url("./HorrorCorps.ttf")format("truetype"); 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+body{
+    background-color: black;
+    background-image: url("https://i.gifer.com/A3iL.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size:cover;
+    color: #ABB0B8;
+    font-weight: lighter;
+    font-family: 'Quicksand', sans-serif;;
+    text-align: center;
+    font-size: 1.3vw;
+    margin-bottom: 3vw;
+}
+
+h1{
+    font-size: 5vw;
+    font-family: 'bloody', sans-serif;    
+    color: #C30000;
+    text-shadow: 3px 3px white;
+    margin-bottom: 2.5vw;
+    margin-top: 4vw;                                 
+}
+
+.how{
+  margin-bottom: 1.5vw;
+}
+
+.each{
+    display: inline-block;
+    width: 19vw;
+    vertical-align: text-top;
+    margin: 1em;
+    padding: 2vw 0;
+    background: rgba(0,0,0,0.5);
+    border: 0.15vw solid #ABB0B8;
+    border-radius: 2vh;
+    cursor: pointer;
+}
+
+.each:hover{
+  border: 0.15vw solid white;
+  transition: 0.5s;
+  color: white;
+}
+
+.each:hover img{
+  filter: grayscale(0);
+}
+
+img{
+    filter: grayscale(90%);
+    transition: 0.5s;
+    width: 15vw;
+}
+
+
+
+button{
+  border: 0.15vw solid #ABB0B8;
+  background: rgba(0,0,0,0);
+  color: #ABB0B8;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.3vw;
+  cursor: pointer;
+  border-radius: 20vw;
+  padding: 0.3vw 0.8vw;
+  margin: 0 1vw 1.3vw 1vw;
+}
+
+button:hover{
+  border: 0.15vw solid white;
+  color: white;
+  transition: 0.5s;
+}
+
+.morebut{
+  border: none;
+  color: white;
+  font-size: 2vw;
+}
+
+.morebut:hover{
+  border: none;
+  color: #C30000;
+  font-size: 2vw;
+}
+
+.moretext{
+  color: #ABB0B8
+}
+
+
+a{
+    color: #ABB0B8;
+    max-width: 10vw;
+    text-decoration: none;
+}
+
+.title{
+  font-family: 'bloody', sans-serif;
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+.title:hover{
+  color: #C30000;
+}
+
+p{
+    padding: 1vw;
+    margin: 0;
+}
+
+#play{
+  display: none;
+}
+
+form{
+  color: white;
+  line-height: 3vw;
+  
+}
+
+input {
+  background: rgba(0,0,0,0);
+  border: none;
+  border-bottom: 0.15vw solid white;
+  color: #C30000;
+  font-size: 1.8vw;
+  margin: 0 0.5vw;
+  text-align: center;
+}
+
+input:focus {
+  outline:none;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  display: none;
+}
+
+/*TEXT EFFECT*/
+.fade-in-box {
+    display: inline-block;
+    padding: 10px;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+  }
+  @keyframes fadein {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  @-moz-keyframes fadein { /* Firefox */
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  @-webkit-keyframes fadein { /* Safari and Chrome */
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  @-o-keyframes fadein { /* Opera */
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+
+  .more{
+    display: none;
+  }
+  
+  .more2{
+    display: block;
+  }
+
+  .name{
+    margin: 2vw;
+  }

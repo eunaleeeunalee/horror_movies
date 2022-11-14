@@ -1,0 +1,53 @@
+.detail{
+    width: 85vw;
+    margin: 3vw 7.5vw;
+    background: rgba(0,0,0,0.5);
+    border: 0.15vw solid #ABB0B8;
+    border-radius: 2vh;
+}
+
+h2{
+font-size: 4vw;
+font-family: 'bloody', sans-serif;    
+color: white;
+margin: 4vw 3vw 1.5vw 3vw;
+}
+
+.backimage{
+position: fixed;
+top: 0;
+left: 0;
+min-width: 100%;
+min-height: 100%;
+filter: brightness(50%);
+}
+
+
+.poster{
+width: 18vw;
+filter: grayscale(0);
+/* position: absolute;
+left: 20%;
+top: 25%; */
+float: left;
+padding: 1.5vw 5vw;
+}
+
+.info{
+text-align: left;
+padding: 0.5vw 5vw;
+}
+
+
+iframe{
+border: none;
+margin: 0 3vw;
+margin-bottom: 2vw;
+width: 92%;
+height: 50vh;
+}
+
+.yepo{
+text-decoration: underline;
+cursor: pointer;
+}
